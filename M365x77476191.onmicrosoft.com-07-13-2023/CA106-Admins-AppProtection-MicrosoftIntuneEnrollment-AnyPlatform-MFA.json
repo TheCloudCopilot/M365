@@ -1,0 +1,53 @@
+{
+  "sessionControls": null,
+  "state": "enabledForReportingButNotEnforced",
+  "displayName": "CA106-Admins-AppProtection-MicrosoftIntuneEnrollment-AnyPlatform-MFA",
+  "conditions": {
+    "applications": {
+      "includeAuthenticationContextClassReferences": [],
+      "includeApplications": [
+        "d4ebce55-015a-49b5-a083-c84d1797ae8c"
+      ],
+      "includeUserActions": [],
+      "excludeApplications": []
+    },
+    "locations": null,
+    "servicePrincipalRiskLevels": [],
+    "clientApplications": null,
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "platforms": null,
+    "devices": null,
+    "users": {
+      "includeRoles": [],
+      "includeUsers": [],
+      "excludeRoles": [],
+      "excludeGroups": [
+        "ee2bdc01-80c2-4e28-9882-858bcfa005bf",
+        "849ca128-f84e-437e-8efd-4b4c3ddfd0d2",
+        "3ac3875d-8457-422b-9097-8b76ae7bf75c",
+        "af2ce85a-5d4e-4f7e-a04b-468cd6a29699",
+        "ff9425a4-9987-4f55-a560-2d214e7e234e"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [
+        "2bda5037-6b74-4892-b5ab-5b8b1c20cfed"
+      ],
+      "excludeGuestsOrExternalUsers": null,
+      "includeGuestsOrExternalUsers": null
+    },
+    "clientAppTypes": [
+      "all"
+    ]
+  },
+  "grantControls": {
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('23be8351-7520-4c7d-b3b2-d51e59570cea')/grantControls/authenticationStrength/$entity",
+    "customAuthenticationFactors": [],
+    "termsOfUse": [],
+    "builtInControls": [
+      "mfa"
+    ],
+    "authenticationStrength": null,
+    "operator": "OR"
+  }
+}

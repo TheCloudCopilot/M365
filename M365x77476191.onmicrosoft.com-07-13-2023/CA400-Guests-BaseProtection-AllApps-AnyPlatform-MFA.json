@@ -1,0 +1,47 @@
+{
+  "sessionControls": null,
+  "state": "enabledForReportingButNotEnforced",
+  "displayName": "CA400-Guests-BaseProtection-AllApps-AnyPlatform-MFA",
+  "conditions": {
+    "applications": {
+      "includeAuthenticationContextClassReferences": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeUserActions": [],
+      "excludeApplications": []
+    },
+    "locations": null,
+    "servicePrincipalRiskLevels": [],
+    "clientApplications": null,
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "platforms": null,
+    "devices": null,
+    "users": {
+      "includeRoles": [],
+      "includeUsers": [],
+      "excludeRoles": [],
+      "excludeGroups": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "96de0af5-a1ae-437a-98fb-3af2b2b95f4f"
+      ],
+      "excludeGuestsOrExternalUsers": null,
+      "includeGuestsOrExternalUsers": null
+    },
+    "clientAppTypes": [
+      "all"
+    ]
+  },
+  "grantControls": {
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('0fbf6d5a-4e00-4734-9c32-dd9f2b9e3200')/grantControls/authenticationStrength/$entity",
+    "customAuthenticationFactors": [],
+    "termsOfUse": [],
+    "builtInControls": [
+      "mfa"
+    ],
+    "authenticationStrength": null,
+    "operator": "OR"
+  }
+}

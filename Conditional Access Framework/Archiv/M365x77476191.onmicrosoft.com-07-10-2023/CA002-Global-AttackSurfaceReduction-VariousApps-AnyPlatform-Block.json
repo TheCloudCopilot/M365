@@ -1,51 +1,51 @@
 {
-  "sessionControls": null,
+  "state": "enabled",
   "displayName": "CA002-Global-AttackSurfaceReduction-VariousApps-AnyPlatform-Block",
   "grantControls": {
+    "operator": "OR",
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('fcd6d631-dcdc-4c64-88f3-2f3a84d0cfd1')/grantControls/authenticationStrength/$entity",
+    "termsOfUse": [],
+    "customAuthenticationFactors": [],
+    "authenticationStrength": null,
     "builtInControls": [
       "block"
-    ],
-    "authenticationStrength": null,
-    "termsOfUse": [],
-    "operator": "OR",
-    "customAuthenticationFactors": [],
-    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('fcd6d631-dcdc-4c64-88f3-2f3a84d0cfd1')/grantControls/authenticationStrength/$entity"
+    ]
   },
-  "state": "enabled",
+  "sessionControls": null,
   "conditions": {
+    "platforms": null,
     "clientAppTypes": [
       "all"
     ],
-    "users": {
-      "includeGuestsOrExternalUsers": null,
-      "excludeUsers": [],
-      "excludeRoles": [],
-      "includeRoles": [],
-      "includeGroups": [],
-      "excludeGroups": [
-        "daac7a30-aa53-4bc3-aede-33d35ffb860f",
-        "08f54e3a-0be4-498a-9047-921c7f60f84c"
-      ],
-      "includeUsers": [
-        "All"
-      ],
-      "excludeGuestsOrExternalUsers": null
-    },
-    "userRiskLevels": [],
-    "servicePrincipalRiskLevels": [],
     "clientApplications": null,
     "devices": null,
     "locations": null,
-    "platforms": null,
-    "signInRiskLevels": [],
     "applications": {
-      "includeAuthenticationContextClassReferences": [],
+      "excludeApplications": [],
       "includeApplications": [
         "00000005-0000-0ff1-ce00-000000000000",
         "905fcf26-4eb7-48a0-9ff0-8dcc7194b5ba"
       ],
       "includeUserActions": [],
-      "excludeApplications": []
-    }
+      "includeAuthenticationContextClassReferences": []
+    },
+    "users": {
+      "excludeGroups": [
+        "ee2bdc01-80c2-4e28-9882-858bcfa005bf",
+        "e9378db0-32a2-4441-9e40-007f7c8388c8"
+      ],
+      "excludeRoles": [],
+      "includeUsers": [
+        "All"
+      ],
+      "excludeGuestsOrExternalUsers": null,
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeGuestsOrExternalUsers": null
+    },
+    "userRiskLevels": [],
+    "servicePrincipalRiskLevels": [],
+    "signInRiskLevels": []
   }
 }
