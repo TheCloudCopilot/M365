@@ -1,0 +1,56 @@
+{
+  "sessionControls": null,
+  "displayName": "CA100-Admins-BaseProtection-AllApps-AnyPlatform-CompliantorAADHJ",
+  "grantControls": {
+    "builtInControls": [
+      "compliantDevice",
+      "domainJoinedDevice"
+    ],
+    "authenticationStrength": null,
+    "termsOfUse": [],
+    "operator": "OR",
+    "customAuthenticationFactors": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('350da22d-0f89-4ce6-b046-884840509f3d')/grantControls/authenticationStrength/$entity"
+  },
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "all"
+    ],
+    "users": {
+      "includeGuestsOrExternalUsers": null,
+      "excludeUsers": [],
+      "excludeRoles": [],
+      "includeRoles": [],
+      "includeGroups": [
+        "a67e45ea-3341-453a-86ba-f0a204fb48d7"
+      ],
+      "excludeGroups": [
+        "daac7a30-aa53-4bc3-aede-33d35ffb860f",
+        "193ede77-7fea-4043-b020-d09dd9e163f3",
+        "52a650ed-fff1-413c-9787-63bad66c87a9",
+        "17635f2a-3885-441b-98da-faef755d27fe",
+        "16bc6fd7-dc74-4d0c-a9d3-ffe679416e12"
+      ],
+      "includeUsers": [],
+      "excludeGuestsOrExternalUsers": null
+    },
+    "userRiskLevels": [],
+    "servicePrincipalRiskLevels": [],
+    "clientApplications": null,
+    "devices": null,
+    "locations": null,
+    "platforms": null,
+    "signInRiskLevels": [],
+    "applications": {
+      "includeAuthenticationContextClassReferences": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeUserActions": [],
+      "excludeApplications": [
+        "d4ebce55-015a-49b5-a083-c84d1797ae8c"
+      ]
+    }
+  }
+}

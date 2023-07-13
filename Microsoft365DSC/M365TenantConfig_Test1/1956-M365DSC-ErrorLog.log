@@ -1,0 +1,15 @@
+[2023.06.30 11:24:23]
+{OperationStopped}
+System.Runtime.InteropServices.COMException (0x800AC472): 0x800AC472
+   at System.Management.Automation.ComInterop.ComRuntimeHelpers.CheckThrowException(Int32 hresult, ExcepInfo& excepInfo, ComMethodDesc method, Object[] args, UInt32 argErr)
+   at CallSite.Target(Closure, CallSite, ComObject, Object, Int32, Object)
+   at lambda_method2563(Closure, Object[], StrongBox`1[], InterpretedFrame)
+"Error during conversion to Excel:"
+at New-M365DSCConfigurationToExcel, C:\Program Files\WindowsPowerShell\Modules\Microsoft365DSC\1.23.621.1\modules\M365DSCReport.psm1: line 424
+at New-M365DSCReportFromConfiguration, C:\Program Files\WindowsPowerShell\Modules\Microsoft365DSC\1.23.621.1\modules\M365DSCReport.psm1: line 534
+at <ScriptBlock>, <No file>: line 1
+meganb@M365x04465909.onmicrosoft.com
+TenantId: M365x04465909.onmicrosoft.com
+
+
+

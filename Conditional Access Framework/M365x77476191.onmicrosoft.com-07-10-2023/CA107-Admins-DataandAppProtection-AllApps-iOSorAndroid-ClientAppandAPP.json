@@ -1,0 +1,62 @@
+{
+  "state": "disabled",
+  "displayName": "CA107-Admins-DataandAppProtection-AllApps-iOSorAndroid-ClientAppandAPP",
+  "grantControls": {
+    "operator": "OR",
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('b8dd4789-59bc-444a-ac49-2e701034c0cc')/grantControls/authenticationStrength/$entity",
+    "termsOfUse": [],
+    "customAuthenticationFactors": [],
+    "authenticationStrength": null,
+    "builtInControls": [
+      "compliantApplication"
+    ]
+  },
+  "sessionControls": null,
+  "conditions": {
+    "platforms": {
+      "excludePlatforms": [],
+      "includePlatforms": [
+        "android",
+        "iOS"
+      ]
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "clientApplications": null,
+    "devices": null,
+    "locations": null,
+    "applications": {
+      "excludeApplications": [
+        "d4ebce55-015a-49b5-a083-c84d1797ae8c"
+      ],
+      "includeApplications": [
+        "All"
+      ],
+      "includeUserActions": [],
+      "includeAuthenticationContextClassReferences": []
+    },
+    "users": {
+      "excludeGroups": [
+        "ee2bdc01-80c2-4e28-9882-858bcfa005bf",
+        "849ca128-f84e-437e-8efd-4b4c3ddfd0d2",
+        "14ee818d-85f3-4227-ad53-fab87b5787c7",
+        "3ac3875d-8457-422b-9097-8b76ae7bf75c",
+        "af2ce85a-5d4e-4f7e-a04b-468cd6a29699",
+        "ff9425a4-9987-4f55-a560-2d214e7e234e"
+      ],
+      "excludeRoles": [],
+      "includeUsers": [],
+      "excludeGuestsOrExternalUsers": null,
+      "excludeUsers": [],
+      "includeGroups": [
+        "2bda5037-6b74-4892-b5ab-5b8b1c20cfed"
+      ],
+      "includeRoles": [],
+      "includeGuestsOrExternalUsers": null
+    },
+    "userRiskLevels": [],
+    "servicePrincipalRiskLevels": [],
+    "signInRiskLevels": []
+  }
+}

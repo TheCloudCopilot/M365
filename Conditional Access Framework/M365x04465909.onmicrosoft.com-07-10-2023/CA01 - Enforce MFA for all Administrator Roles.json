@@ -1,0 +1,64 @@
+{
+  "state": "enabledForReportingButNotEnforced",
+  "displayName": "CA01 - Enforce MFA for all Administrator Roles",
+  "grantControls": {
+    "operator": "OR",
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('7b5d226f-3d85-4e21-a818-d79a038fd229')/grantControls/authenticationStrength/$entity",
+    "termsOfUse": [],
+    "customAuthenticationFactors": [],
+    "authenticationStrength": null,
+    "builtInControls": [
+      "mfa"
+    ]
+  },
+  "sessionControls": {
+    "applicationEnforcedRestrictions": null,
+    "cloudAppSecurity": null,
+    "signInFrequency": {
+      "isEnabled": true,
+      "frequencyInterval": "timeBased",
+      "authenticationType": "primaryAndSecondaryAuthentication",
+      "value": 3,
+      "type": "hours"
+    },
+    "disableResilienceDefaults": null,
+    "persistentBrowser": {
+      "isEnabled": true,
+      "mode": "never"
+    }
+  },
+  "conditions": {
+    "platforms": null,
+    "clientAppTypes": [
+      "all"
+    ],
+    "clientApplications": null,
+    "devices": null,
+    "locations": null,
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeUserActions": [],
+      "includeAuthenticationContextClassReferences": []
+    },
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "includeUsers": [],
+      "excludeGuestsOrExternalUsers": null,
+      "excludeUsers": [
+        "d5493ebb-1cc8-42ec-b129-94b9bc033ffe"
+      ],
+      "includeGroups": [],
+      "includeRoles": [
+        "62e90394-69f5-4237-9190-012177145e10"
+      ],
+      "includeGuestsOrExternalUsers": null
+    },
+    "userRiskLevels": [],
+    "servicePrincipalRiskLevels": [],
+    "signInRiskLevels": []
+  }
+}

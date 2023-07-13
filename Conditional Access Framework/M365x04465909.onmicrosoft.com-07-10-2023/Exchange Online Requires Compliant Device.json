@@ -1,0 +1,48 @@
+{
+  "state": "disabled",
+  "displayName": "Exchange Online Requires Compliant Device",
+  "grantControls": {
+    "operator": "OR",
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('e3cb0c63-141a-4d71-abea-1630c158bc40')/grantControls/authenticationStrength/$entity",
+    "termsOfUse": [],
+    "customAuthenticationFactors": [],
+    "authenticationStrength": null,
+    "builtInControls": [
+      "compliantDevice"
+    ]
+  },
+  "sessionControls": null,
+  "conditions": {
+    "platforms": null,
+    "clientAppTypes": [
+      "browser",
+      "mobileAppsAndDesktopClients"
+    ],
+    "clientApplications": null,
+    "devices": null,
+    "locations": null,
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "00000002-0000-0ff1-ce00-000000000000"
+      ],
+      "includeUserActions": [],
+      "includeAuthenticationContextClassReferences": []
+    },
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "includeUsers": [],
+      "excludeGuestsOrExternalUsers": null,
+      "excludeUsers": [],
+      "includeGroups": [
+        "4bc62350-11ff-4caa-b015-729a3f1a0d2a"
+      ],
+      "includeRoles": [],
+      "includeGuestsOrExternalUsers": null
+    },
+    "userRiskLevels": [],
+    "servicePrincipalRiskLevels": [],
+    "signInRiskLevels": []
+  }
+}

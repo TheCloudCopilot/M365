@@ -1,0 +1,53 @@
+{
+  "sessionControls": null,
+  "displayName": "CA202-Internals-IdentityProtection-AllApps-AnyPlatform-MFAandPWDforHighUserRisk",
+  "grantControls": {
+    "builtInControls": [
+      "mfa",
+      "passwordChange"
+    ],
+    "authenticationStrength": null,
+    "termsOfUse": [],
+    "operator": "AND",
+    "customAuthenticationFactors": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('07c196a3-8707-4903-9b2f-df9e4f64e969')/grantControls/authenticationStrength/$entity"
+  },
+  "state": "enabled",
+  "conditions": {
+    "clientAppTypes": [
+      "all"
+    ],
+    "users": {
+      "includeGuestsOrExternalUsers": null,
+      "excludeUsers": [],
+      "excludeRoles": [],
+      "includeRoles": [],
+      "includeGroups": [
+        "d40018a4-8ab5-4391-90d1-272851da605b"
+      ],
+      "excludeGroups": [
+        "daac7a30-aa53-4bc3-aede-33d35ffb860f",
+        "ae1b3493-6287-4f9c-8474-f75b02ac7215"
+      ],
+      "includeUsers": [],
+      "excludeGuestsOrExternalUsers": null
+    },
+    "userRiskLevels": [
+      "high"
+    ],
+    "servicePrincipalRiskLevels": [],
+    "clientApplications": null,
+    "devices": null,
+    "locations": null,
+    "platforms": null,
+    "signInRiskLevels": [],
+    "applications": {
+      "includeAuthenticationContextClassReferences": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeUserActions": [],
+      "excludeApplications": []
+    }
+  }
+}
