@@ -1,0 +1,18 @@
+The article describes a Conditional Access architecture that uses a persona-based approach to form a structured Conditional Access framework. The personas are groups of users that have similar characteristics and access needs. The article defines the following personas:
+
+- **Global**: This persona includes all users in the organization. It is used to apply baseline policies that cover all users and all apps.
+- **Admins**: This persona includes users who have administrative privileges, such as global administrators, security administrators, or application administrators. It is used to apply stricter policies that protect sensitive resources and actions.
+- **Internals**: This persona includes users who are employees of the organization and have a corporate identity. It is used to apply policies that reflect the trust level of the internal users and their devices.
+- **Externals**: This persona includes users who are not employees of the organization but have a business relationship with it, such as partners, vendors, or contractors. They have an external identity that is managed by the organization or federated from another identity provider. It is used to apply policies that limit the access of external users to only the resources they need.
+- **GuestUsers**: This persona includes users who are invited to collaborate with the organization through Azure Active Directory B2B. They have an identity that is managed by their own organization or by a consumer identity provider, such as Microsoft, Google, or Facebook. It is used to apply policies that restrict the access of guest users to only the resources they are invited to.
+- **GuestAdmins**: This persona includes guest users who are granted administrative privileges in the organization. It is used to apply policies that enforce additional security measures for guest admins, such as multi-factor authentication or conditional approval.
+- **Microsoft365ServiceAccounts**: This persona includes service accounts that are used for Microsoft 365 services, such as Exchange Online, SharePoint Online, or Teams. They have an identity that is managed by Azure Active Directory and assigned specific roles and permissions. It is used to apply policies that ensure the security and compliance of the service accounts.
+- **AzureServiceAccounts**: This persona includes service accounts that are used for Azure services, such as Azure DevOps, Azure Automation, or Azure Logic Apps. They have an identity that is managed by Azure Active Directory and assigned specific roles and permissions. It is used to apply policies that ensure the security and compliance of the service accounts.
+- **CorpServiceAccounts**: This persona includes service accounts that are used for custom applications or integrations that run on-premises or in the cloud. They have an identity that is managed by Azure Active Directory or another identity provider and assigned specific roles and permissions. It is used to apply policies that ensure the security and compliance of the service accounts.
+
+I hope this summary helps you understand the personas described in the article.
+
+Quelle: Unterhaltung mit Bing, 13.7.2023
+(1) Conditional Access architecture and personas - Azure Architecture .... https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture.
+(2) Azure Application Architecture Fundamentals - Azure Architecture Center .... https://learn.microsoft.com/en-us/azure/architecture/guide/.
+(3) Azure Architecture Center - Azure Architecture Center. https://learn.microsoft.com/en-us/azure/architecture/.
