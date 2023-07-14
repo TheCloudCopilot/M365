@@ -1,0 +1,59 @@
+{
+  "sessionControls": {
+    "cloudAppSecurity": null,
+    "applicationEnforcedRestrictions": null,
+    "signInFrequency": {
+      "frequencyInterval": "timeBased",
+      "type": "hours",
+      "value": 4,
+      "authenticationType": "primaryAndSecondaryAuthentication",
+      "isEnabled": true
+    },
+    "persistentBrowser": {
+      "isEnabled": true,
+      "mode": "never"
+    },
+    "disableResilienceDefaults": null
+  },
+  "state": "enabled",
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "servicePrincipalRiskLevels": [],
+    "devices": null,
+    "applications": {
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": [],
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [],
+      "includeGuestsOrExternalUsers": null,
+      "excludeGuestsOrExternalUsers": null,
+      "excludeUsers": [],
+      "includeRoles": [],
+      "excludeRoles": [],
+      "includeGroups": [
+        "2bda5037-6b74-4892-b5ab-5b8b1c20cfed"
+      ],
+      "excludeGroups": [
+        "ee2bdc01-80c2-4e28-9882-858bcfa005bf",
+        "ff9425a4-9987-4f55-a560-2d214e7e234e",
+        "3ac3875d-8457-422b-9097-8b76ae7bf75c",
+        "af2ce85a-5d4e-4f7e-a04b-468cd6a29699",
+        "14ee818d-85f3-4227-ad53-fab87b5787c7"
+      ]
+    },
+    "clientApplications": null,
+    "locations": null,
+    "platforms": null
+  },
+  "grantControls": null,
+  "displayName": "CA108-Admins-DataProtection-AllApps-AnyPlatform-SessionPolicy"
+}

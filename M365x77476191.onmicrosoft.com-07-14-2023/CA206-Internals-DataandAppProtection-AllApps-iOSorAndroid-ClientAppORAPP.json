@@ -1,0 +1,59 @@
+{
+  "sessionControls": null,
+  "state": "enabled",
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "servicePrincipalRiskLevels": [],
+    "devices": null,
+    "applications": {
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": [],
+      "includeApplications": [
+        "Office365"
+      ],
+      "excludeApplications": [
+        "d4ebce55-015a-49b5-a083-c84d1797ae8c"
+      ]
+    },
+    "users": {
+      "includeUsers": [],
+      "includeGuestsOrExternalUsers": null,
+      "excludeGuestsOrExternalUsers": null,
+      "excludeUsers": [],
+      "includeRoles": [],
+      "excludeRoles": [],
+      "includeGroups": [
+        "b86af40e-e4f0-4e83-a2bb-ef5321269384"
+      ],
+      "excludeGroups": [
+        "ee2bdc01-80c2-4e28-9882-858bcfa005bf",
+        "451cabbb-7455-4cf2-9d69-27463ef371c4",
+        "bfd3a78c-c051-4ea6-9e51-bdd66c4ed23c"
+      ]
+    },
+    "clientApplications": null,
+    "locations": null,
+    "platforms": {
+      "includePlatforms": [
+        "android",
+        "iOS"
+      ],
+      "excludePlatforms": []
+    }
+  },
+  "grantControls": {
+    "builtInControls": [
+      "compliantApplication"
+    ],
+    "termsOfUse": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('87d9f0f3-0eed-4330-8b54-cf21b639781b')/grantControls/authenticationStrength/$entity",
+    "operator": "OR",
+    "authenticationStrength": null,
+    "customAuthenticationFactors": []
+  },
+  "displayName": "CA206-Internals-DataandAppProtection-AllApps-iOSorAndroid-ClientAppORAPP"
+}

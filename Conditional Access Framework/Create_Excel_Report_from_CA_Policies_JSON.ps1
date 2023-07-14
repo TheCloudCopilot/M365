@@ -1,5 +1,5 @@
 # Import the JSON files from the folder
-$files = Get-ChildItem -Path "C:\Scripts\M365\M365x77476191.onmicrosoft.com-07-10-2023" -Filter "*.json"
+$files = Get-ChildItem -Path "C:\Scripts\M365\M365x77476191.onmicrosoft.com-07-14-2023" -Filter "*.json"
 
 # Create an empty array to store the data
 $data = @()

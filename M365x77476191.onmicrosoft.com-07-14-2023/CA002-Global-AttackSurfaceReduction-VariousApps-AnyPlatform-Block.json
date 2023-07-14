@@ -1,0 +1,51 @@
+{
+  "sessionControls": null,
+  "state": "enabled",
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "servicePrincipalRiskLevels": [],
+    "devices": null,
+    "applications": {
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": [],
+      "includeApplications": [
+        "00000005-0000-0ff1-ce00-000000000000",
+        "905fcf26-4eb7-48a0-9ff0-8dcc7194b5ba"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [
+        "All"
+      ],
+      "includeGuestsOrExternalUsers": null,
+      "excludeGuestsOrExternalUsers": null,
+      "excludeUsers": [],
+      "includeRoles": [],
+      "excludeRoles": [],
+      "includeGroups": [],
+      "excludeGroups": [
+        "ee2bdc01-80c2-4e28-9882-858bcfa005bf",
+        "e9378db0-32a2-4441-9e40-007f7c8388c8"
+      ]
+    },
+    "clientApplications": null,
+    "locations": null,
+    "platforms": null
+  },
+  "grantControls": {
+    "builtInControls": [
+      "block"
+    ],
+    "termsOfUse": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('fcd6d631-dcdc-4c64-88f3-2f3a84d0cfd1')/grantControls/authenticationStrength/$entity",
+    "operator": "OR",
+    "authenticationStrength": null,
+    "customAuthenticationFactors": []
+  },
+  "displayName": "CA002-Global-AttackSurfaceReduction-VariousApps-AnyPlatform-Block"
+}
