@@ -1,1 +1,0 @@
-﻿& 'C:\Scripts\O365\Connect-365.ps1'
