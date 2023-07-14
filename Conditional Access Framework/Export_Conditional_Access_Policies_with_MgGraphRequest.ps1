@@ -1,5 +1,5 @@
 <#
-.SYNOPSIS
+.SYNOPSIS 
 Exports all Conditional Access policies from a tenant to separate JSON files.
 
 .DESCRIPTION
