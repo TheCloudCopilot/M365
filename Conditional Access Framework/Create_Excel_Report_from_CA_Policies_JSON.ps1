@@ -26,4 +26,4 @@ foreach ($file in $files) {
 }
 
 # Export the data array to an Excel file
-$data | Export-Excel -Path "C:\Scripts\M365\ConditionalAccessPolicies.xlsx" -AutoSize
+$data | Export-Excel -Path "C:\Scripts\M365\ConditionalAccessPolicies_new.xlsx" -AutoSize
