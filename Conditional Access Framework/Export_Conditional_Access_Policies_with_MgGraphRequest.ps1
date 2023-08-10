@@ -16,11 +16,13 @@ if ($PSVersionTable.PSVersion.Major -lt 7) {
 
 # Try Discconnect Microsoft Graph API
 Write-Host "Disconnect from existing Microsoft Graph API Sessions"
-try{Disconnect-MgGraph -ErrorAction SilentlyContinue}catch{}
+try{Disconnect-MgGraph -force -ErrorAction SilentlyContinue}catch{}
+
 
 # Connect to Microsoft Graph API
 Write-Host "Connecting to Microsoft Graph API..."
-Connect-MgGraph -Scopes 'User.Read.All', 'Organization.Read.All', 'Policy.Read.All' -ErrorAction Stop
+$RequiredScopes = @('User.Read.All', 'Organization.Read.All', 'Policy.Read.All')
+Connect-MgGraph -Scopes $RequiredScopes -ErrorAction Stop
 
 # Get the built-in onmicrosoft.com domain name of the tenant
 Write-Host "Getting the built-in onmicrosoft.com domain name of the tenant..."
@@ -69,7 +71,7 @@ foreach ($policy in $policies) {
     }
 }
 $summary | Format-Table -AutoSize
-
+Disconnect-MgGraph
 Write-Host ""
 Write-Host "Exported all Conditional Access policies for $($tenantName) to $($path)"
 Write-Host ""
