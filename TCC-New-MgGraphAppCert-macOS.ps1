@@ -43,14 +43,14 @@ Change Log
 ----------
 Date       Version   Author          Description
 --------   -------   ------          --------------------------------------------
-14/08/23   1.0       Philipp Kohn    Initial creation with assistance from OpenAI's ChatGPT.
-14/08/23   1.1       Philipp Kohn    Changed the common Name to the Tenant Name.
-26/03/25   1.2       Philipp Kohn    Updated script for macOS compatibility, replaced Windows certificate commands with OpenSSL.
-26/03/25   1.3       Philipp Kohn    Added password prompt for private key.
-27/03/25   1.4       Philipp Kohn    Added automatic Keychain import and logging functionality.
-27/03/25   1.5       Philipp Kohn    Enhanced memory security handling (ZeroFreeBSTR), added parameter documentation, 
+14/08/23   0.1       Philipp Kohn    Initial creation with assistance from OpenAI's ChatGPT.
+14/08/23   0.2       Philipp Kohn    Changed the common Name to the Tenant Name.
+26/03/25   0.3       Philipp Kohn    Updated script for macOS compatibility, replaced Windows certificate commands with OpenSSL.
+26/03/25   0.4       Philipp Kohn    Added password prompt for private key.
+27/03/25   0.5       Philipp Kohn    Added automatic Keychain import and logging functionality.
+27/03/25   0.6       Philipp Kohn    Enhanced memory security handling (ZeroFreeBSTR), added parameter documentation, 
                                      introduced region-based code structure for improved readability.
-28/03/25   1.6       Philipp Kohn    Name change and clean-up                                     
+28/03/25   1.0       Philipp Kohn    Name change and clean-up                                     
 #>
 
 #region Initialization
