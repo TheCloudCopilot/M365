@@ -28,9 +28,16 @@ Password that encrypts the private key and PFX. Input is hidden and securely rem
 
 .NOTES
 File Name      : New-MgGraphAppCert-macOS.ps1
-Author         : Philipp Kohn, assisted by OpenAI's ChatGPT
+Author         : Philipp Kohn
+Contact        : https://github.com/philippkohn
 Prerequisite   : PowerShell Core 7.0 and above, OpenSSL installed, Keychain access permissions
 Copyright      : © 2025 cloudcopilot.de
+License        : MIT License (https://opensource.org/licenses/MIT)
+
+DISCLAIMER
+----------
+This script is provided "as-is" without warranty of any kind.
+Use it at your own risk. The author disclaims all liability.
 
 Change Log
 ----------
