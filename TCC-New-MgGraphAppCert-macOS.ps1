@@ -29,7 +29,7 @@ Password that encrypts the private key and PFX. Input is hidden and securely rem
 .NOTES
 File Name     : TCC-New-MgGraphAppCert-macOS.ps1
 Author        : The Cloud Copilot, Philipp Kohn
-Contact       : https://github.com/philippkohn
+Contact       : https://github.com/TheCloudCopilot
 Copyright     : © 2025 cloudcopilot.de
 License       : MIT License (https://opensource.org/licenses/MIT)
 Prerequisite  : macOS, PowerShell Core 7.0 and above, OpenSSL installed, Keychain access permissions
