@@ -27,12 +27,12 @@ The Microsoft Entra default tenant name (e.g., yourcompany.onmicrosoft.com) used
 Password that encrypts the private key and PFX. Input is hidden and securely removed from memory using ZeroFreeBSTR().
 
 .NOTES
-File Name      : New-MgGraphAppCert-macOS.ps1
-Author         : Philipp Kohn
-Contact        : https://github.com/philippkohn
-Prerequisite   : PowerShell Core 7.0 and above, OpenSSL installed, Keychain access permissions
-Copyright      : © 2025 cloudcopilot.de
-License        : MIT License (https://opensource.org/licenses/MIT)
+File Name     : New-MgGraphAppCert-macOS.ps1
+Author        : Philipp Kohn
+Contact       : https://github.com/philippkohn
+Copyright     : © 2025 cloudcopilot.de
+License       : MIT License (https://opensource.org/licenses/MIT)
+Prerequisite  : macOS, PowerShell Core 7.0 and above, OpenSSL installed, Keychain access permissions
 
 DISCLAIMER
 ----------
