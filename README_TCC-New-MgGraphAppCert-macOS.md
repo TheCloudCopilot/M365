@@ -64,7 +64,7 @@ MIT License
 
 **Philipp Kohn**  
 GitHub: [@TheCloudCopilot](https://github.com/TheCloudCopilot)  
-Website: [cloudcopilot.de](https://thecloudcopilot.com)
+Website: [thecloudcopilot.com](https://thecloudcopilot.com)
 
 ## 🔗 Related
 
