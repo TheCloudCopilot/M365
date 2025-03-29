@@ -46,15 +46,6 @@ chmod +x ./TCC-New-MgGraphAppCert-macOS.ps1
 ./TCC-New-MgGraphAppCert-macOS.ps1
 ```
 
-Make sure you're using **PowerShell Core (7.0+)**.  
-You can check with:
-
-```powershell
-$PSVersionTable.PSEdition
-```
-
-It should return: `Core`
-
 > 💡 Tip: You can place the script in a directory listed in your `$env:PATH` or create a PowerShell alias for quick reuse.
 
 ## 🚀 Usage
