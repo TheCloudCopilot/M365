@@ -20,14 +20,42 @@ This PowerShell script creates a self-signed certificate for **Microsoft Graph A
 
 ## 💻 Installation
 
-```powershell
-Install-Script -Name TCC-New-MgGraphAppCert-macOS
+You can either clone the repository or download the script directly from GitHub:
+
+### 🔁 Clone with Git:
+
+```bash
+git clone https://github.com/TheCloudCopilot/M365.git
+cd M365
 ```
 
-Or clone/download directly from GitHub:
+### ⬇️ Or download the script manually:
+
+- Open: [TCC-New-MgGraphAppCert-macOS.ps1](https://github.com/TheCloudCopilot/M365/blob/main/TCC-New-MgGraphAppCert-macOS.ps1)
+- Click **"Raw"** → Right-click → **"Save As..."** to download it to your local system
+
+### ✅ Make it executable (if needed):
+
 ```bash
-git clone https://github.com/TheCloudCopilot/M365
+chmod +x ./TCC-New-MgGraphAppCert-macOS.ps1
 ```
+
+### ▶️ Run the script with PowerShell 7:
+
+```powershell
+./TCC-New-MgGraphAppCert-macOS.ps1
+```
+
+Make sure you're using **PowerShell Core (7.0+)**.  
+You can check with:
+
+```powershell
+$PSVersionTable.PSEdition
+```
+
+It should return: `Core`
+
+> 💡 Tip: You can place the script in a directory listed in your `$env:PATH` or create a PowerShell alias for quick reuse.
 
 ## 🚀 Usage
 
